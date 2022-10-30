@@ -1,0 +1,294 @@
+/**Title font**/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/**Textes font**/
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body{margin:0; background: white;}
+
+/***Index page***/
+/***Index page***/
+
+/**Header**/
+.banner{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.banner > img{
+    top:0;
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.banner_content{
+    position:absolute;
+    top:0;
+    display:block;
+    width:100%;
+    height: 400px;
+    background: linear-gradient(180deg, #000000 0.09%, rgba(217, 217, 217, 0) 50%);
+}
+
+.top_content{
+    display:flex;
+    width:80%;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo_title{
+    color: #F05D2A;
+    font-family: 'Lobster' , sans-serif;
+    font-size: 20px;
+}
+.menu_btn{
+    color:rgb(159, 159, 159);
+    font-family: 'Mukta' , sans-serif;
+    line-height: 1em;
+    cursor:pointer;
+    transition: .2s ease-in-out;
+}
+.menu_btn:hover{
+    color: #F05D2A;
+    transition: .2s ease-in-out;
+}
+
+.welcome_message{
+    color: #F05D2A;
+    font-family: 'Lobster' , sans-serif;
+    font-size: 36px;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    padding-top:56px;
+}
+
+@media (min-width:650px) {
+    .welcome_message{
+        text-align: center;
+    }
+}
+/*****************/
+
+/**under banner menu**/
+
+.under_index_menu{
+    display: flex;
+    width: 90%;
+    max-width:650px;
+    margin:80px auto;
+    margin-bottom:80px;
+    justify-content: space-between;
+}
+
+a{text-decoration: none; font-family: 'Maktu' , sans-serif;}
+
+.under_index_buttons{
+    display: block;
+    height: 132px;
+}
+
+.general_btn{
+    display:block;
+    width: 123px;
+    height: 28px;
+    background: #F05D2A;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.under_index_buttons a{
+    margin-bottom:20px;
+    transition: .2s ease-in-out;
+}
+
+.under_index_buttons a:hover{
+    background: white;
+    color: #F05D2A;
+    transition: .2s ease-in-out;
+}
+
+.description_restau{
+    margin: 0;
+    width: 180px;
+    color: #8A8A8A;
+    font-family: 'Maktu' , sans-serif;
+}
+
+@media (min-width:650px) {
+    .description_restau{
+        width:240px;
+    }
+}
+/*************************/
+
+/**News banner**/
+
+.news_banner{
+    position: relative;
+    width: 100%;
+    height: 160px;
+}
+
+.news_banner > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.news_banner > div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000068;
+}
+
+.news_title{
+    color: #F05D2A;
+    font-family: 'Lobster' , sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.news_menu{
+    display: flex;
+    width: 90%;
+    max-width: 650px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top:40px;
+}
+
+.news_menu > img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.news_description{width: 180px;}
+@media (min-width:650px) {
+    .news_description{width: 240px;}
+}
+
+.news_description h5{
+    margin-top: 0;
+    font-family: 'Lobster' , sans-serif;
+    color: #8A8A8A;
+}
+.news_description p{
+    font-family: 'Maktu' , sans-serif;
+    color: #8A8A8A;
+}
+/***********************************/
+
+/**Contact form & footer**/
+
+.contact_div{
+    display: block;
+    height: 625px;
+    width: 100%;
+    background: #E63114;
+    margin-top:40px;
+}
+
+.contact_div > form{
+    display: block;
+    margin-bottom:100px;
+}
+
+.form_title{
+    display: block;
+    font-family: 'Lobster' , sans-serif;
+    color: white;
+    text-align: center;
+    margin: 40px auto;
+    padding-top: 40px;
+    font-size: 1em;
+}
+
+.input_div{
+    display: block;
+    width: 232px;
+    height: 39px;
+    margin: 40px auto;
+}
+
+.input_div input{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Maktu' , sans-serif;
+    color: blacks;
+}
+
+.textarea_div{
+    display: block;
+    width: 232px;
+    height: 184px;
+    margin: 40px auto;
+}
+.textarea_div textarea{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.contact_div form > button{
+    border: none;
+    padding-bottom: 27px;
+    margin: auto;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.send_btn:hover{
+    background: #8A8A8A;
+    color: #E63114;
+    transition: .2s ease-in-out;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: #D9D9D9;
+    margin-top:-20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.footer_content{
+    display: flex;
+    width:90%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.left_footer, .right_footer{
+    display: block;
+    width: 160px;
+    font-family: 'Maktu' , sans-serif;
+}
+
+.left_footer a{
+    display: block;
+    line-height: 1em;
+    margin-top:15px;
+}
+.left_footer p{margin-top:0px;}
