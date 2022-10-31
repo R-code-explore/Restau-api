@@ -247,6 +247,7 @@ a{text-decoration: none; font-family: 'Maktu' , sans-serif;}
     width: 100%;
     height: 100%;
     resize: none;
+    padding: 10px;
 }
 
 .contact_div form > button{
@@ -292,3 +293,93 @@ a{text-decoration: none; font-family: 'Maktu' , sans-serif;}
     margin-top:15px;
 }
 .left_footer p{margin-top:0px;}
+
+/***Menu***/
+.menu{
+    display: block;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #821100c3;
+    padding-top: 100px;
+    transform: translateX(100%);
+    transition: .6s ease-in-out;
+}
+
+.close_menu_btn{
+    display:block;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right:20%;
+    cursor: pointer;
+}
+
+.menu a{
+    display:block;
+    font-family: 'Maktu' , sans-serif;
+    font-size: 36px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+.menu a:hover{
+    color: #F05D2A;
+    transition: .2s ease-in-out;
+}
+
+
+/******Menu page*******/
+/******Menu page*******/
+
+.menu_div{
+    display: block;
+    width: 90%;
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+.menu_div > h3{
+    font-family: 'Lobster' , sans-serif;
+    color: #F05D2A;
+    font-size: 36px;
+    text-align: center;
+}
+
+.menu_content{
+    display:block;
+    width: 100%;
+}
+
+.menu_content > h5{
+    font-family: 'Lobster' , sans-serif;
+    font-size: 20px;
+    color: #F05D2A;
+}
+
+.menu_content_description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_content_description div{
+    display:block;
+    width: 150px;
+}
+@media (min-width:650px){
+    .menu_content_description div{
+        width:240px;
+    }
+}
+
+.menu_content_description div h5, .menu_content_description div p{
+    color: #8A8A8A;
+    font-family: 'Maktu' , sans-serif;
+}
+
+/*******************************/
+/*******************************/
